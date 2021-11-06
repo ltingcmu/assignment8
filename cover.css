@@ -1,0 +1,219 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+ /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+  font-family: 'DM Sans', sans-serif;
+}
+
+.h-100{
+  /*height: 100vh!important;*/
+}
+
+
+#gradient
+{
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.cover-container {
+  max-width: 50em;
+}
+
+.noise {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(noise.png);
+    background-size: auto;
+    background-repeat: repeat;
+    mix-blend-mode: overlay;
+    opacity: .1;
+}
+
+/*
+ * Header
+ */
+
+.nav{
+  animation-duration: 2s;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  text-shadow: none;
+
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 2rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+#header-name {
+  font-family: 'Poppins', san-serif;
+  font-weight: 700;
+  mix-blend-mode: overlay;
+  font-size: 100px;
+  color: #fff;
+  text-shadow: none;
+  annimation: fadeInDown;
+  animation-duration: 2s;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.top-blurb {
+  text-shadow: none;
+  padding: 30px;
+  animation-duration: 2s;
+}
+
+
+.px-3{
+  height: 100vh;
+}
+
+.scroll-to-continue{
+  font-family: 'Poppins', san-serif;
+  font-weight: 100;
+  text-shadow: none;
+  animation: fadeInUp;
+  animation-duration: 4s;
+  text-transform: uppercase;
+  mix-blend-mode: soft-light;
+  opacity: 0.8;
+}
+
+.chevron{
+  text-shadow: none;
+  mix-blend-mode: soft-light;
+  opacity: 0.8;
+}
+
+.chevron img{
+  width: 40px;
+  height: 40px;
+  animation: pulse 1s ease-out infinite;
+}
+
+.card {
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.btn-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.card-header {
+  text-shadow: none;
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.card-body {
+  color: black;
+  text-shadow: none;
+}
+
+.subtitle {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#the-bakery-img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+/*Mouse cursor gradient tracking codepen
+.mouse-cursor-gradient-tracking {
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}
+.mouse-cursor-gradient-tracking span {
+  position: relative;
+}
+.mouse-cursor-gradient-tracking::before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, white, transparent);
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease;
+  mix-blend-mode: overlay;
+  opacity: 0.2;
+}
+
+.mouse-cursor-gradient-tracking:hover::before {
+  --size: 200px;
+}*/
+
+
+
+
+.work_section{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
