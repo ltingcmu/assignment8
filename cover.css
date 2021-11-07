@@ -89,6 +89,7 @@ body {
   font-weight: 700;
   mix-blend-mode: overlay;
   font-size: 100px;
+  letter-spacing: .4rem;
   color: #fff;
   text-shadow: none;
   annimation: fadeInDown;
@@ -213,6 +214,11 @@ body {
   color: black;
 }
 
+
+.footer-p {
+  text-shadow: none;
+  color: white;
+}
 
 
 
