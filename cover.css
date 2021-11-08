@@ -57,6 +57,7 @@ body {
 
 .nav{
   animation-duration: 2s;
+  animation-fill-mode: forwards;  /*You need to set the animation-fill-mode to forwards for the animation to retain the state as at its last keyframe. https://stackoverflow.com/questions/26103506/css3-animation-on-link-hover-not-working-properly*/
 }
 
 .nav-masthead .nav-link {
@@ -111,13 +112,12 @@ body {
 
 .scroll-to-continue{
   font-family: 'Poppins', san-serif;
-  font-weight: 100;
+  font-weight: 400;
   text-shadow: none;
   animation: fadeInUp;
-  animation-duration: 4s;
-  text-transform: uppercase;
+  animation-duration: 4s;/*
+  text-transform: uppercase;*/
   mix-blend-mode: soft-light;
-  opacity: 0.8;
 }
 
 .chevron{
@@ -127,8 +127,8 @@ body {
 }
 
 .chevron img{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   animation: pulse 1s ease-out infinite;
 }
 
