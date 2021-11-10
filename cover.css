@@ -221,5 +221,38 @@ body {
 }
 
 
+.two-col-grid{
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 75px;
+}
+
+.two-col-grid p{
+  color: black;
+  text-shadow: none;
+}
+
+.project-description{
+  text-align: left;
+  font-size: 14px;
+}
+
+.two-col-grid h1{
+  color: black;
+  text-shadow: none;
+}
+
+.bold{
+  text-transform: uppercase;
+  font-family: 'Poppins', san-serif;
+  font-weight: 700;
+}
+
+.project-pic{
+  margin-top: 50px;
+}
+
+
+
 
 
