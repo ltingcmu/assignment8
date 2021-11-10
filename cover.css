@@ -37,7 +37,7 @@ body {
 
 
 .cover-container {
-  max-width: 50em;
+  max-width: 60em;
 }
 
 .noise {
@@ -56,7 +56,7 @@ body {
  */
 
 .nav{
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;  /*You need to set the animation-fill-mode to forwards for the animation to retain the state as at its last keyframe. https://stackoverflow.com/questions/26103506/css3-animation-on-link-hover-not-working-properly*/
 }
 
@@ -89,12 +89,12 @@ body {
   font-family: 'Poppins', san-serif;
   font-weight: 700;
   mix-blend-mode: overlay;
-  font-size: 100px;
+  font-size: 120px;
   letter-spacing: .4rem;
   color: #fff;
   text-shadow: none;
   annimation: fadeInDown;
-  animation-duration: 2s;
+  animation-duration: 1s;
   padding: 40px;
   margin-top: 100px;
 }
@@ -102,7 +102,7 @@ body {
 .top-blurb {
   text-shadow: none;
   padding: 30px;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 
@@ -227,6 +227,18 @@ body {
   margin-bottom: 75px;
 }
 
+.two-col-grid h1{
+  font-size: 36px;
+  text-align: left;
+  color: black;
+  text-shadow: none;
+}
+
+.project-tagline{
+  text-align: left;
+  font-size: 18px;
+}
+
 .two-col-grid p{
   color: black;
   text-shadow: none;
@@ -237,20 +249,18 @@ body {
   font-size: 14px;
 }
 
-.two-col-grid h1{
-  color: black;
-  text-shadow: none;
-}
-
 .bold{
   text-transform: uppercase;
   font-family: 'Poppins', san-serif;
   font-weight: 700;
 }
 
+
 .project-pic{
   margin-top: 50px;
 }
+
+
 
 
 
