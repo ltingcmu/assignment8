@@ -37,7 +37,7 @@ body {
 
 
 .cover-container {
-  max-width: 60em;
+/*  max-width: 60em;*/
 }
 
 .noise {
@@ -88,18 +88,19 @@ body {
 #header-name {
   font-family: 'Poppins', san-serif;
   font-weight: 700;
-  mix-blend-mode: overlay;
-  font-size: 120px;
+  /*mix-blend-mode: soft-light;*/
+  font-size: 160px;
   letter-spacing: .4rem;
   color: #fff;
   text-shadow: none;
   annimation: fadeInDown;
   animation-duration: 1s;
-  padding: 40px;
-  margin-top: 100px;
+  padding: 20px;
+  margin-top: 50px;
 }
 
 .top-blurb {
+  height: auto;
   text-shadow: none;
   padding: 30px;
   animation-duration: 1s;
@@ -110,13 +111,54 @@ body {
   height: 100vh;
 }
 
-.scroll-to-continue{
+.header-button-primary{
   font-family: 'Poppins', san-serif;
-  font-weight: 400;
+  font-weight: 200;
   text-shadow: none;
   animation: fadeInUp;
-  animation-duration: 4s;/*
-  text-transform: uppercase;*/
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  text-transform: uppercase;
+  padding-left: 20px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 2em;
+}
+
+.header-button{
+  font-family: 'Poppins', san-serif;
+  font-weight: 200;
+  text-shadow: none;
+  animation: fadeInUp;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  text-transform: uppercase;
+  mix-blend-mode: soft-light;
+  padding-left: 20px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 2em;
+}
+
+.header-button:hover{
+  color: hotpink;
+  mix-blend-mode: normal;
+  transition-duration: 0.1s;
+}
+
+.header-button-primary:hover{
+  color: hotpink;
+  mix-blend-mode: normal;
+  transition-duration: 0.1s;
+}
+
+
+.scroll-to-continue{
+  font-family: 'Poppins', san-serif;
+  font-weight: 200;
+  text-shadow: none;
+  animation: fadeInUp;
+  animation-duration: 2s;
   mix-blend-mode: soft-light;
 }
 
@@ -221,19 +263,20 @@ body {
   color: black;
   max-width: 60em;
   border-radius: 30px;
-  box-shadow: 5px 5px 10px 0.2px rgba(0, 0, 0, .2);
+  text-shadow: none;
+  /*box-shadow: 5px 5px 10px 0.2px rgba(0, 0, 0, .2);*/
 }
 
 
 .footer-p {
   text-shadow: none;
-  color: white;
+  color: slategray;
 }
 
 .container {
   max-width: 60em;
   border-radius: 50px;
-  box-shadow: 5px 5px 10px 0.2px rgba(0, 0, 0, .2);
+  /*box-shadow: 5px 5px 10px 0.2px rgba(0, 0, 0, .2);*/
 }
 
 
