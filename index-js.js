@@ -1,13 +1,21 @@
+// var colors = new Array(
+//   [62,35,255],
+//   [60,255,60],
+//   [255,35,98],
+//   [45,175,230],
+//   [255,0,255],
+//   [255,128,0]);
+
 
 // animated gradient background source: https://codepen.io/quasimondo/pen/lDdrF
 
 var colors = new Array(
-  [62,35,255],
-  [60,255,60],
-  [255,35,98],
+  [116,98,252],
+  [116,252,116],
+  [252,81,129],
   [45,175,230],
-  [255,0,255],
-  [255,128,0]);
+  [214,124,214],
+  [255,162,69]);
 
 var step = 0;
 //color table indices for: 
@@ -18,7 +26,7 @@ var step = 0;
 var colorIndices = [0,1,2,3];
 
 //transition speed
-var gradientSpeed = 0.001;
+var gradientSpeed = 0.0005;
 
 function updateGradient()
 {
