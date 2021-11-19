@@ -101,12 +101,11 @@ body {
   font-family: 'Poppins', san-serif;
   font-weight: 700; 
   color: #6B61D8;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
 }
 
 #L-T-home:hover{
   color: black;
+  transition-duration: 0.2s;
 }
 
 #header-name {
