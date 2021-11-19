@@ -83,6 +83,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
+  color: rgba(107,97,216, 1.0);
   border-bottom-color: rgba(107,97,216, .75);
 }
 
@@ -94,6 +95,18 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+#L-T-home{
+  font-family: 'Poppins', san-serif;
+  font-weight: 700; 
+  color: #6B61D8;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#L-T-home:hover{
+  color: black;
 }
 
 #header-name {
@@ -342,6 +355,7 @@ body {
   font-family: 'Poppins', san-serif;
   font-weight: 700; 
   color: #6B61D8;
+  animation-fill-mode: forwards;
 }
 
 .L-T:hover{
@@ -350,8 +364,8 @@ body {
 
 .about-me{
   margin-top: 5em;
-  margin-right: 10em;
-  margin-left: 10em;
+/*  margin-right: 10em;
+  margin-left: 10em;*/
   animation-duration: 2s;
 }
 
