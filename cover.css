@@ -400,9 +400,17 @@ body {
   width: 75%;
 }
 
+.mockup-pic-3{
+  position: relative;
+  width: 55%;
+}
+
 .blurb-row{
   padding-left: 2em;
   padding-right: 2em;
+}
+
+.blurb-row-bold{
   font-family: 'Poppins', san-serif;
   font-weight: 700;
   font-size: 32px;
@@ -414,7 +422,13 @@ body {
   font-size: 16px;
 }
 
-
+.italic-quote{
+  font-family: 'Poppins', san-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  color: #595959;
+}
 
 
 
