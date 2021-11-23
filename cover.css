@@ -378,9 +378,16 @@ body {
 
 /*--------------------------- Project 1 Page--------------------------*/
 
+.space-medium{
+  width: 100%;
+  background-color: white;
+  padding: 2em;
+}
+
 .mockup-section{
   justify-content: center;
   text-align: center;
+  animation-duration: 1s;
 }
 
 .mockup-pic{
@@ -388,6 +395,24 @@ body {
   width: 60%;
 }
 
+.mockup-pic-2{
+  position: relative;
+  width: 75%;
+}
+
+.blurb-row{
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Poppins', san-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.bold-small-title{
+  font-family: 'Poppins', san-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
 
 
 
