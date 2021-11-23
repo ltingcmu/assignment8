@@ -376,6 +376,17 @@ body {
 }
 
 
+/*--------------------------- Project 1 Page--------------------------*/
+
+.mockup-section{
+  justify-content: center;
+  text-align: center;
+}
+
+.mockup-pic{
+  position: relative;
+  width: 60%;
+}
 
 
 
