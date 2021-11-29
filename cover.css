@@ -103,7 +103,7 @@ body {
 #header-name {
   font-family: 'Poppins', san-serif;
   font-weight: 700;
-  /*mix-blend-mode: soft-light;*/
+  mix-blend-mode: overlay;
   font-size: 160px;
   letter-spacing: .4rem;
   color: #fff;
@@ -432,9 +432,11 @@ body {
 
 
 
+/*--------------------------- Project 2 Page--------------------------*/
 
-
-
+.green-font{
+  color: #6ABE27;
+}
 
 
 
