@@ -405,6 +405,11 @@ body {
   width: 55%;
 }
 
+.mockup-pic-4{
+  position: relative;
+  width: 20%;
+}
+
 .blurb-row{
   padding-left: 2em;
   padding-right: 2em;
