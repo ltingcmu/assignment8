@@ -447,7 +447,9 @@ body {
   font-size: 36px;
 }
 
-
+.p-align-left{
+  text-align: left;
+}
 
 
 
